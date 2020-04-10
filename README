@@ -1,5 +1,11 @@
 NULLDEREF -- A module for playing with kernel NULL pointer dereferences
 
+CHANGES
+ - Forked from https://github.com/nelhage/nullderef
+ - Added test and exploit code from:
+     https://blogs.oracle.com/linux/much-ado-about-null%3a-exploiting-a-kernel-null-dereference-v2
+ - Updated test, exploit code to match new module activation mechanism
+
 BUILDING
 This module should build against any remotely recent 2.6 kernel. To
 build, you'll need the kernel headers for your kernel installed. On
